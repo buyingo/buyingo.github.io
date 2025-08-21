@@ -41,3 +41,50 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('/assets/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900; /* 可变字重 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('/assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* 应用到整个网站 */
+body {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+/* === Customize sidebar profile === */
+.author__name {
+  font-size: 1.25rem !important;
+}
+
+.author__pronouns {
+  font-size: 1.3em !important;
+}
+
+/* 放大 employer 行的文字和图标 */
+.author__urls-wrapper li {
+  font-size: 0.93em;  /* 控制文字大小 */
+}
+
+.author__urls-wrapper li i {
+  font-size: 0.93em;  /* 控制图标大小 */
+  margin-right: 15px; /* 图标与文字间距 */
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+  padding: 20px 20px 20px 40px;  /* 上右下左，左边留出更多空间 */
+}
