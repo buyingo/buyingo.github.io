@@ -42,27 +42,25 @@
     "vendor/font-awesome/brands"
 ;
 
+/* === 注册自定义字体 === */
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('/assets/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900; /* 可变字重 */
+  font-family: 'Noto Serif SC';
+  src: url('/assets/fonts/NotoSerifSC-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('/assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: italic;
+  font-family: 'Lato';
+  src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* 应用到整个网站 */
+
+/* === 全站字体设置：中英文分别应用不同字体 === */
 body {
-  font-family: 'Noto Sans', sans-serif !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans', sans-serif !important;
+  font-family: 'Lato', 'Noto Serif SC', serif;
 }
 
 /* === Customize sidebar profile === */
@@ -88,3 +86,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f5f5f5;
   padding: 20px 20px 20px 40px;  /* 上右下左，左边留出更多空间 */
 }
+
+/* --- 自定义正文与 sidebar 间距 --- */
+.page {
+  padding-left: 100px !important;
+}
+
+/* --- 控制导航栏向右 --- */
+.masthead__menu {
+  padding-left: 100px;  /* 控制导航栏整体向右偏移 */
+}
+
+
+

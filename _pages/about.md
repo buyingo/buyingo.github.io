@@ -7,12 +7,13 @@ redirect_from:
   - /about.html
 classes: no-title
 ---
-<h1>Hello / Hallo / 你好 👋</h1> 
-<p style="text-align: right;"> 
-I am currently a lecturer at Beijing Foreign Studies University.<br> 
-My research interests lie in pragmatics, German linguistics, corpus linguistics, <br> 
-computational linguistics and statistical methods for linguistic research. 
-</p>
+
+<div style="text-align: center;">
+  <h1>👋 Hello / Hallo / 你好</h1>
+  I am currently a lecturer at Beijing Foreign Studies University.<br> 
+  My research interests lie in pragmatics, German linguistics, corpus linguistics, <br> 
+  computational linguistics and statistical methods for linguistic research.
+</div>
 
 Education  教育经历
 ------
