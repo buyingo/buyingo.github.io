@@ -24,11 +24,11 @@ repository               : "buyingo/buyingo.github.io"
 author:
   # Biographic information
   avatar           : "/assets/images/profile.jpg"
-  name             : "Guying Zhou"
+  name             : "周顾盈"
   pronouns         : "(she/her/hers)"  
   bio              : 
-  location         : "Beijing, China"
-  employer         : "Beijing Foreign Studies University"
+  location         : "北京"
+  employer         : "北京外国语大学"
   uri              : "https://de.bfsu.edu.cn/info/1076/6693.htm"
   email            : "guying.zhou@bfsu.edu.cn"
   # Academic websites

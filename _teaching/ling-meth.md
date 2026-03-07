@@ -2,7 +2,7 @@
 title: "语言学研究方法与学术写作"
 collection: teaching
 type: "研究生课程"
-permalink: /teaching/LRM&AW
+permalink: /teaching/ling-meth
 venue: "北京外国语大学德语学院"
 date: 2026-03-02
 location: "国际大厦443"
