@@ -9,8 +9,6 @@ author_profile: true
 
 {% for post in site.teaching reversed %}
 
-### [{{ post.title }}]({{ base_path }}{{ post.url }})
-
-{{ post.type }}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+### [{{ post.title }}]({{ base_path }}{{ post.url }}) [{{ post.type }}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}]
 
 {% endfor %}
