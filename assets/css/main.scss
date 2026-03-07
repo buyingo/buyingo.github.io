@@ -97,5 +97,13 @@ body {
   padding-left: 100px;  /* 控制导航栏整体向右偏移 */
 }
 
+.archive a {
+  color: #222;            /* 标题黑色 */
+  text-decoration: none;  /* 去掉下划线 */
+}
 
+.archive a:hover {
+  color: #2a7ae2;         /* hover 变蓝 */
+  text-decoration: underline;
+}
 
