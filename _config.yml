@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "buyingo"
+title                    : "周顾盈"
 title_separator          : "-"
-name                     : &name "Guying Zhou"
+name                     : &name "周顾盈"
 description              : &description "Personal academic website of Guying Zhou (周顾盈)."
 url                      : https://buyingo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,8 +28,8 @@ author:
   pronouns         : "(she/her/hers)"  
   bio              : 
   location         : "Beijing, China"
-  employer         : 
-  uri              : # URL
+  employer         : "Beijing Foreign Studies University"
+  uri              : "https://de.bfsu.edu.cn/info/1076/6693.htm"
   email            : "guying.zhou@bfsu.edu.cn"
   # Academic websites
   academia         : # URL
