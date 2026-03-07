@@ -24,10 +24,10 @@ repository               : "buyingo/buyingo.github.io"
 author:
   # Biographic information
   avatar           : "/assets/images/profile.jpg"
-  name             : "周顾盈"
+  name             : "周顾盈 G. Zhou"
   pronouns         : "(she/her/hers)"  
   bio              : 
-  location         : "北京"
+  location         : 
   employer         : "北京外国语大学"
   uri              : "https://de.bfsu.edu.cn/info/1076/6693.htm"
   email            : "guying.zhou@bfsu.edu.cn"
